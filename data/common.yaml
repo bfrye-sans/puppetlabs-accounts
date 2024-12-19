@@ -1,0 +1,23 @@
+---
+
+lookup_options:
+  accounts::group_defaults:
+    merge:
+      strategy: deep
+      merge_hash_arrays: true
+
+  accounts::group_list:
+    merge:
+      strategy: deep
+      merge_hash_arrays: true
+
+  accounts::user_defaults:
+    merge:
+      strategy: deep
+      merge_hash_arrays: true
+
+  accounts::user_list:
+    merge:
+      strategy: deep
+      merge_hash_arrays: true
+
